@@ -1,0 +1,14 @@
+.boxed {
+    background-color: #fff;
+    color: #4a4a4a;
+    display: block;
+    padding: 0.6rem !important;
+}
+
+.boxed-active {
+    box-shadow: 1px 2px 10px #ccc;
+}
+
+.boxed:not(:last-child) {
+    margin-bottom: 0.7rem;
+}
